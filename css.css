@@ -1,0 +1,86 @@
+*{
+    background-color: #66D7D1;
+}
+
+h1{
+    color: rgb(11, 11, 11);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 2px 3px black;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin: 0 auto; /* Centra el contenedor */
+    width: 90%; /* Ajusta el ancho del contenedor al 90% del viewport */
+}
+
+/* Estilo de los botones */
+.button {
+    font-size: 30px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita para el texto */
+    text-align: center; /* Centra el texto dentro del botón */
+    font-family: Arial, Helvetica, sans-serif; /* Fuentes de texto */
+    cursor: pointer; /* Añade un cursor de puntero para indicar que es interactivo */
+    padding: 10px 20px; /* Añade un padding para mejorar la apariencia del botón */
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Suaviza la transición de color */
+}
+
+/* Efecto hover para el botón */
+.button:hover {
+    background-color: #cdffff; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilo para las imágenes */
+video {
+    width: 300px; /* Ancho fijo para la imagen */
+    height: 400px; /* Altura fija para la imagen */
+    margin-left: auto; /* Ajusta el margen izquierdo automáticamente */
+    margin-right: auto; /* Ajusta el margen derecho automáticamente */
+    border-radius: 10px;
+}
+
+.texto{
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: #FF637D;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    text-align: center; 
+}
+
+/* Estilo de la imagen */
+.collage {
+    width: 350px; /* Fija el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+}
+
+.collage:hover {
+    width: 360px; /* Fija el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px black;
+}
+
+/* Título debajo de la imagen */
+h2 {
+    font-family: 'Arial', sans-serif; /* Fuente personalizada */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #161616; /* Color del texto */
+    margin-top: 10px; /* Margen superior para separar del elemento anterior */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
